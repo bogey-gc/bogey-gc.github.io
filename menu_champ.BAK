@@ -12,7 +12,7 @@
 
 <meta name="ProgId" content="FrontPage.Editor.Document">
 
-<title>裏成績サブメニュー</title>
+<title>過去の成績サブメニュー</title>
 
 <base target="contents4">
 
@@ -57,18 +57,17 @@
     <td width="100%" align="center">
 
       
-<p align="center"><b><font color="#000000">裏成績<br>
-（夜の部）</font></b></p>
+<p align="center"><b><font color="#000000">歴代優勝者</font></b></p>
     </td>
   </tr>
   <tr>
     <td width="100%" align="center"><img border="0" src="IMAGES/space.gif" width="108" height="5"></td>
   </tr>
   <tr>
-    <td width="100%" align="center"><a href="majang.htm"><img border="0" src="images/majang_list.GIF" width="108" height="41" alt="リスト表示"></a></td>
+    <td width="100%" align="center"><a href="champ.htm" target="contents4"><img border="0" src="images/champ_list.GIF" width="108" height="41" alt="リスト表示"></a></td>
   </tr>
   <tr>
-    <td width="100%" align="center"><a target="contents4" href="majang_chart.htm"><img border="0" src="images/majang_chart.GIF" width="108" height="41" alt="チャート表示"></a></td>
+    <td width="100%" align="center"><a target="contents4" href="champ_chart.htm"><img border="0" src="images/champ_chart.GIF" width="108" height="41" alt="チャート表示"></a></td>
   </tr>
 </table>
 
