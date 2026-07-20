@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Hello GitHub Pages!</h1>
-  </body>
+<head>
+<meta charset="UTF-8">
+<title>Protected</title>
+<script>
+function login() {
+  const pass = document.getElementById("pass").value;
+  if (pass === "waseda") {
+    window.location.href = "main.html";
+  } else {
+    alert("パスワードが違います");
+  }
+}
+</script>
+</head>
+<body>
+<h2>パスワードを入力してください</h2>
+<input type="password" id="pass">
+<button onclick="login()">OK</button>
+</body>
 </html>
